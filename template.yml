@@ -8,10 +8,6 @@ Resources:
       Handler: main
       Runtime: go1.x
       CodeUri: 's3://codepipeline-us-west-1-403904336812/HelloServiceCodepipe/SourceArti/1c7Vpv6.zip'
-      Stages:
-          Actions:
-              Configuration:
-                Capabilities: CAPABILITY_AUTO_EXPAND
       Events:
         GetEvent:
           Type: Api
