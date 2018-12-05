@@ -18,7 +18,7 @@ var (
 // However you could use other event sources (S3, Kinesis etc), or JSON-decoded primitive types such as 'string'.
 func Handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 
-	// stdout and stderr are sent to AWS CloudWatch Logs
+	// stdout and stderr are sent to AWS CloudWatch Logs.
 	log.Printf("Processing Lambda request %s\n", request.RequestContext.RequestID)
 
 	// If no name is provided in the HTTP request body, throw an error
