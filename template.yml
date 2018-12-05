@@ -11,7 +11,7 @@ Resources:
       Stages:
           Actions:
               Configuration:
-                Capabilities: CAPABILITY_AUTO_EXPAND
+                Capabilities: [CAPABILITY_AUTO_EXPAND]
       Events:
         GetEvent:
           Type: Api
